@@ -3,12 +3,11 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.5
-
 repositories {
     mavenCentral()
     jcenter()
 }
+
 dependencies {
     testCompile "org.mockito:mockito-all:1.+"
     testCompile 'org.assertj:assertj-core:3.4.1'
