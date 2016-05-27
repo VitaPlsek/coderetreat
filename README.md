@@ -15,7 +15,7 @@ gradle test
 
 Jasmine with Karma runner.
 
-Install depenedencies as usual
+Install dependencies as usual
 
 ``` 
 npm install
