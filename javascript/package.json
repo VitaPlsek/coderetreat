@@ -1,20 +1,27 @@
 {
   "name": "javascript-coderetreat",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test-js": "karma start src/js/karma.conf.js",
+    "test-es6": "karma start src/es6/karma.conf.js",
+    "test-ts": "karma start src/ts/karma.conf.js",
+    "postinstall": "tsd install"
   },
   "author": "vita@angular.cz",
-  "license": "ISC",
   "devDependencies": {
     "babel": "^6.5.2",
-    "babel-cli": "^6.9.0",
-    "jasmine-core": "^2.4.1",
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "jasmine-core": "^2.5.2",
     "karma": "^0.13.22",
+    "karma-babel-preprocessor": "^6.0.1",
     "karma-jasmine": "^1.0.2",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "phantomjs-prebuilt": "^2.1.7"
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-typescript-preprocessor": "^0.3.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "tsd": "^0.6.5",
+    "typescript": "^2.0.3"
   }
 }
