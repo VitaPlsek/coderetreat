@@ -2,7 +2,7 @@
 
 ## Java
 
-Junit4, AssertJ and Mockito. Uses Gradle.
+Junit4, AssertJ, Mockito and Cucumber. Uses Gradle.
 
 You can use your favourite IDE for running tests, or run them with gradle
 
