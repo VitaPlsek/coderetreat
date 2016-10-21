@@ -9,7 +9,9 @@ repositories {
 }
 
 dependencies {
-    testCompile "org.mockito:mockito-all:1.+"
-    testCompile 'org.assertj:assertj-core:3.4.1'
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'org.mockito:mockito-all:1.+',
+        'org.assertj:assertj-core:3.4.1',
+        'junit:junit:4.11',
+        'info.cukes:cucumber-java:1.1.8',
+        'info.cukes:cucumber-junit:1.1.8'
 }
